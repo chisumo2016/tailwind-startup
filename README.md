@@ -25,6 +25,8 @@ A starter template for very simple and small projects or static web pages with T
 
 6. Building the configuration - Tailwind CSS 
 
+    * npm run build
+
 
 7. Install the Live Server Globally  via Terminal 
 
