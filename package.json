@@ -1,0 +1,25 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "A starter template for very simple and small projects or static web pages with Tailwind CSS setup and configured without PostCSS or any other framework. You only need to install NPM.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build ./src/styles.css -o ./public/css/styles.css",
+    "prod": "NODE_ENV=production tailwindcss build ./src/styles.css -o ./public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chisumo2016/tailwind-startup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chisumo2016/tailwind-startup/issues"
+  },
+  "homepage": "https://github.com/chisumo2016/tailwind-startup#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "tailwindcss": "^2.0.3"
+  }
+}
